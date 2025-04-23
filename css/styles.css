@@ -1,0 +1,25 @@
+@import "reset.css";
+@import "utilities.css";
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: var(--background);
+    color: var(--text);
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: var(--step-0)
+}
+
+a {
+    color: var(--accent);
+}
+
+main {
+    min-height: 75vh;
+}

@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css"/>
     <title>Oliver Meredith</title>
 </head>
 <body>
+    <div class="space-xs-s flow">
+        <header class="text-step-3">
+            Oliver Meredith
+        </header>
     
-    <h1>Oliver Meredith</h1>
+        <main class="flow">
+            <p>I'm currently a <span>senior software engineer</span> at <a href="https://www.nhm.ac.uk">the Natural History Museum, London</a>.</p>
+            <p>You can contact me at <a href="mailto:mail@olivermeredith.com">mail@olivermeredith.com</a></p>
+        </main>
+
+        <footer>
+            <p>&copy; <span id="year"></span> olivermeredith.com</p>
+        </footer>
+    </div>
 </body>
+<script>
+    // Set the current year in the footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </html>

@@ -1,0 +1,102 @@
+:root {
+    --background: #f0f0f0;
+    --text: #333;
+    --accent: #dd249f;
+
+    /* Font sizes */
+    --step--1: clamp(0.844rem, 0.7897rem + 0.2714vw, 1rem);
+    --step-0: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+    --step-1: clamp(1.4996rem, 1.4778rem + 0.1093vw, 1.5625rem);
+    --step-2: clamp(1.9531rem, 2.015rem + -0.0798vw, 1.999rem);
+    --step-3: clamp(2.4414rem, 2.7423rem + -0.3883vw, 2.6647rem);
+    /* Spacing */
+    --space-xs: clamp(0.875rem, 0.8533rem + 0.1087vw, 0.9375rem);
+    --space-s: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+    --space-m: clamp(1.6875rem, 1.6223rem + 0.3261vw, 1.875rem);
+    --space-l: clamp(2.25rem, 2.163rem + 0.4348vw, 2.5rem);
+    --space-xl: clamp(3.375rem, 3.2446rem + 0.6522vw, 3.75rem);
+    --space-2xl: clamp(3.375rem, 3.2446rem + 0.6522vw, 3.75rem);
+
+    /* One-up pairs */
+    --space-xs-s: clamp(0.875rem, 0.7446rem + 0.6522vw, 1.25rem);
+    --space-s-m: clamp(1.125rem, 0.8641rem + 1.3043vw, 1.875rem);
+    --space-m-l: clamp(1.6875rem, 1.4049rem + 1.413vw, 2.5rem);
+    --space-l-xl: clamp(2.25rem, 1.7283rem + 2.6087vw, 3.75rem);
+    --space-xl-2xl: clamp(3.375rem, 3.2446rem + 0.6522vw, 3.75rem);
+}
+
+.text-step--1 {
+    font-size: var(--step--1);
+}
+
+.text-step-0 {
+    font-size: var(--step-0);
+}
+
+.text-step-1 {
+    font-size: var(--step-1);
+}
+
+.text-step-2 {
+    font-size: var(--step-2);
+}
+
+.text-step-3 {
+    font-size: var(--step-3);
+}
+
+.space-xs {
+    padding: var(--space-xs);
+}
+.space-s {
+    padding: var(--space-s);
+}
+.space-m {
+    padding: var(--space-m);
+}
+.space-l {
+    padding: var(--space-l);
+}
+.space-xl {
+    padding: var(--space-xl);
+}
+.space-2xl {
+    padding: var(--space-2xl);
+}
+.space-xs-s {
+    padding: var(--space-xs-s);
+}
+.space-s-m {
+    padding: var(--space-s-m);
+}
+.space-m-l {
+    padding: var(--space-m-l);
+}
+.space-l-xl {
+    padding: var(--space-l-xl);
+}
+.space-xl-2xl {
+    padding: var(--space-xl-2xl);
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+.flow * > * {
+    margin-top: var(--space-xs-s)
+}
